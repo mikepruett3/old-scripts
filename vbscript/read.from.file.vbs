@@ -1,0 +1,6 @@
+set fileVmBoxList = fso.OpenTextFile("C:\CurrentPrices.txt")
+sEntireFile = fileVmBoxList.ReadAll
+set fileVmBoxList = Nothing  'always deallocate after use...
+set vg = CreateObject("VoiceGuide.CommandLink")
+vg.RvSet $RV_LINEID, "ReadInPrice", sEntireFile
+set vg = Nothing 'always deallocate after use...

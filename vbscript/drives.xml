@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Resources> 
+  <Drive>
+    <Name>User Drive</Name>
+    <Path>%username%</Path>
+    <Letter>I</Letter>
+    <ServerName>myserver</ServerName>
+    <IP>192.168.0.10</IP>
+  </Drive>
+</Resources>
